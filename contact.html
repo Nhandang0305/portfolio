@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liên hệ - Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+            <span class="logo">MyPortfolio</span>
+            <div class="nav-links">
+                <a href="index.html">Trang chủ</a>
+                <a href="about.html">Giới thiệu</a>
+                <a href="contact.html" class="active">Liên hệ</a>
+            </div>
+        </div>
+    </nav>
+
+    <section>
+        <h2>Kết nối với mình</h2>
+        <p style="text-align: center; margin-bottom: 2rem;">Bạn có thể liên hệ với mình qua các kênh bên dưới hoặc để lại lời nhắn nhé!</p>
+        
+        <div class="contact-grid">
+            <div class="contact-info">
+                <p><strong>Email:</strong> nhandang804@gmail.com</p>
+                <p><strong>GitHub:</strong> github.com/your-username</p>
+                <p><strong>Nơi ở hiện tại:</strong> TP. Hồ Chí Minh, Việt Nam</p>
+            </div>
+
+            <form class="contact-form" onsubmit="alert('Cảm ơn bạn đã gửi tin nhắn!'); return false;">
+                <input type="text" placeholder="Họ và tên" required>
+                <input type="email" placeholder="Email của bạn" required>
+                <textarea placeholder="Lời nhắn của bạn" rows="5" required></textarea>
+                <button type="submit">Gửi tin nhắn</button>
+            </form>
+        </div>
+    </section>
+</body>
+</html>
