@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đèn Kéo Quân 3D - Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/lantern.css">
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+            <span class="logo">MyPortfolio</span>
+            <div class="nav-links">
+                <a href="index.html">Trang chủ</a>
+                <a href="about.html">Giới thiệu</a>
+                <a href="den-keo-quan.html" class="active">Đèn Kéo Quân</a>
+                <a href="contact.html">Liên hệ</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="lantern-page">
+        <div class="lantern-intro">
+            <h2>Trải Nghiệm Đèn Kéo Quân 3D</h2>
+            <p>Hiệu ứng xoay không gian ba chiều được dựng bằng CSS 3D Transforms và điều khiển tương tác bằng JavaScript.</p>
+            <span class="badge">💡 Mẹo: Rê chuột vào đèn để tạm dừng xoay và ngắm ảnh rõ hơn!</span>
+        </div>
+
+        <div class="scene3d">
+            <div class="lantern" id="movingLantern">
+                <div class="face" style="background-image: url('images/pic1.jpg');"></div>
+                <div class="face" style="background-image: url('images/pic2.jpg');"></div>
+                <div class="face" style="background-image: url('images/pic3.jpg');"></div>
+                <div class="face" style="background-image: url('images/pic4.jpg');"></div>
+                <div class="face" style="background-image: url('images/pic5.jpg');"></div>
+                <div class="face" style="background-image: url('images/pic6.jpg');"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/lantern.js"></script>
+</body>
+</html>
